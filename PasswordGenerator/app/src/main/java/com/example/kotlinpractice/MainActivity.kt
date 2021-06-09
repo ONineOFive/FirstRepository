@@ -2,6 +2,8 @@ package com.example.kotlinpractice
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.widget.Toast
+import kotlinx.android.synthetic.main.activity_main.*
 import android.widget.Button
 import android.widget.TextView
 
@@ -22,7 +24,6 @@ class MainActivity : AppCompatActivity() {
         }
 
         save.setOnClickListener{
-
         }
     }
 }
